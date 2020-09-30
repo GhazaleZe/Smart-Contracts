@@ -1,7 +1,7 @@
 # Smart Contracts
 ## Requirements:
 https://remix.ethereum.org/
-## Let's start with Hello World of smart contracts :)
+## Let's start with the Hello World of smart contracts :)
  In the Greeter.sol file is a simple smart contract.
  Here is the the Deploy of it:
  
