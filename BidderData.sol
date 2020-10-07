@@ -7,5 +7,20 @@ contract Bidder {
     bool public eligible;
     uint constant minBid = 1000;
     
+    function SetName(string memory MyName) public
+    {
+        name = MyName;
+    }
+    
+    function SetBidAmount(uint x) public 
+    {
+        BidAmount = x;
+    }
+    
+    function DetermineEligibility() public 
+    {
+        if (BidAmount >= minBid) eligible = true;
+        else eligible = false;
+    }
 
 }
